@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/register"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="50dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:text="REGISTRATION FORM"
+        android:textAlignemt="center"
+        android:textsize="60dp"
+
+    <EditText
+        android:id="@+id/personalname"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:hint="name"
+        android:inputType="textPersonName"
+        android:textAppearance="@style/TextAppearance.AppCompact.Display2" />
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:hint="password"
+        android:inputType="textPassword"
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="register" />
+
+</LinearLayout>
